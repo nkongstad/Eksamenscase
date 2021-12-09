@@ -25,7 +25,7 @@ include("./functions.php");
                         <li><a href="#">Om os</a></li>
                         <li><a href="#">Kontakt</a></li>
                         <li><a href="#">Contract</a></li>
-                        <li><a href="#">Kurv</a></li>
+                        <li><a href="customize.php">Kurv</a></li>
                     
                     </ul>
                 </nav>
@@ -35,39 +35,8 @@ include("./functions.php");
 
 <hr>
 
-Tilpas:
-    <select>
-        <option value="Vælg">Vælg</option>
-        <option value="Munin 6360">Munin 6360</option>
-        <option value="Nobel 8900">Nobel 8900</option>
-        <option value="Gyngestol 183">Gyngestol 183</option>
-    </select>
-
-    
-
-Træsort:
-    <select>
-        <option value="Vælg">Vælg</option>
-        <option value="Egetræ">Egetræ</option>
-        <option value="Bøg">Bøg</option>
-        <option value="Fyr">Fyr</option>
-        <option value="Nødetræ">Nødetræ</option>
-    </select>
-
-Farve:
-    <select>
-        <option value="Vælg">Vælg</option>
-        <option value="koksblå">Koksblå</option>
-        <option value="lys grå">Lys grå</option>
-        <option value="Sort">Sort</option>
-        <option value="Sand">Sand</option>
-    </select>
-
-   
 
 
-
-<hr>
 
 <main>
     <div class="cards">
@@ -82,7 +51,7 @@ Farve:
                 </p>
             </div>
             <div class="cardInfo">
-                <a href="#" class="button">Tilpas</a>
+                <a href="customize.php" class="button">Tilpas</a>
                 <p><button>Køb nu</button></p>
 
             </div>
@@ -99,7 +68,7 @@ Farve:
                 </p>
             </div>
             <div class="cardInfo">
-                <a href="#" class="button">Tilpas</a>
+                <a href="customize.php" class="button">Tilpas</a>
                 <p><button>Køb nu</button></p>
 
             </div>
@@ -116,7 +85,7 @@ Farve:
                 </p>
             </div>
             <div class="cardInfo">
-                <a href="#" class="button">Tilpas</a>
+                <a href="customize" class="button">Tilpas</a>
                 <p><button>Køb nu</button></p>
 
             </div>

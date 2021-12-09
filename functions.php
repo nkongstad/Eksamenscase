@@ -1,4 +1,11 @@
 <?php 
 
 
+function customize($product) {
+
+    
+}
+
+
+
 ?>

@@ -12,7 +12,7 @@ body {
 main {
     display: grid;
     grid-template-columns: 1fr repeat(12, minmax(auto, 60px)) 1fr;
-    grid-gap: 40px;
+    gap: 40px;
     padding: 60px 0;
     
 }
@@ -20,6 +20,7 @@ main {
     grid-column: 2 / span 12;
     display: grid;
     grid-template-columns: 1fr repeat(12, minmax(auto, 60px)) 1fr;
+    gap: 40px;
 }
 
 .card {
@@ -28,6 +29,7 @@ main {
     flex-direction: column;
     width: 300px;
     height: 300px;
+    gap: 40px;
 }
 
 .cardImg {
