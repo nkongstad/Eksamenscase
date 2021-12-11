@@ -60,7 +60,7 @@ include("./functions.php");
 
             </div>
             <div class="card">
-            <img src="billeder\Nobel_8900_skraa_Prod_3vinkler_450x450.png" alt="Billede" class="cardImg">
+            <img src="billeder\Nobel_8900_Prod_miljo_923x923-800x800 (1).jpg" alt="Billede" class="cardImg">
             <div class="cardContent">
                 <h4>Nobel 8900</h4>
                 <p class="price">14.995 Kr.</p>
