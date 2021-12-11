@@ -8,6 +8,10 @@ body {
     background-color: #D3CFCE;
     
 }
+.confirmation.php {
+    background-color: #D3CFCE;
+}
+
 
 main {
     display: grid;

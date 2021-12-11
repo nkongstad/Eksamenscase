@@ -54,6 +54,7 @@ include("./functions.php");
                 <a href="customize.php" class="button">Tilpas</a>
                 <p><button>Køb nu</button></p>
 
+
             </div>
             
 

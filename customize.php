@@ -1,3 +1,7 @@
+<?php 
+include("./functions.php");
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -11,7 +15,7 @@
 
         <label for="produkt">Produkt:</label>
         <select name="produkt" for="produkt" action="confirmation.php">
-        <option value="Vælg">Vælg</option>
+        <option value="Vælg" disable selected>Vælg</option>
         <option value="Munin 6360">Munin 6360</option>
         <option value="Nobel 8900">Nobel 8900</option>
         <option value="Gyngestol 183">Gyngestol 183</option>
