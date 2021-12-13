@@ -1,7 +1,3 @@
-<?php 
-include("./functions.php");
-?>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -11,10 +7,10 @@ include("./functions.php");
     <title>Customize</title>
 </head>
 <body>
-    <form method="post" action="index.php">
+    <form method="post" action="kurv.php">
 
         <label for="produkt">Produkt:</label>
-        <select name="note" for="produkt" action="index.php">
+        <select name="produkt" for="produkt" action="kurv.php">
         <option value="Vælg" disable selected>Vælg</option>
         <option value="Munin 6360">Munin 6360</option>
         <option value="Nobel 8900">Nobel 8900</option>
@@ -24,7 +20,7 @@ include("./functions.php");
         <br>
 
         <label for="træsort">Træsort:</label>
-        <select name="addToCart" for="træsort" action="index.php">
+        <select name="træsort" for="træsort" action="kurv.php">
         <option value="Vælg">Vælg</option>
         <option value="Egetræ">Egetræ</option>
         <option value="Bøg">Bøg</option>
@@ -35,7 +31,7 @@ include("./functions.php");
         <br>
 
         <label for="farve">Farve:</label>
-        <select name="note" for="farve" action="index.php">
+        <select name="farve" for="farve" action="kurv.php">
         <option value="Vælg">Vælg</option>
         <option value="koksblå">Koksblå</option>
         <option value="lys grå">Lys grå</option>

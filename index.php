@@ -24,7 +24,6 @@ include("./functions.php");
                         <li><a href="#">Forhandlere</a></li>
                         <li><a href="#">Om os</a></li>
                         <li><a href="#">Kontakt</a></li>
-                        <li><a href="#">Contract</a></li>
                     
                     </ul>
                 </nav>
@@ -87,28 +86,13 @@ include("./functions.php");
             <div class="cardInfo">
                 <a href="customize.php" class="button">Tilpas</a>
                 <from method="post">
-                    <input type="submit" name="addToCart" value="Læg i kurv">
+                    <input type="submit" name="addToCart" value="Køb nu">
                 </from>
         
 
             </div>
 
             </div>
-
-            <ul>
-            <label for="kurv">Kurv:</label>    
-            <form method="post">
-
-            <button type="submit">Gå til betaling</button>
-            </form>
-
-            <?php foreach(getFromFile()as $i => $note){ ?>
-                <li>
-                    <?php echo $note ?>
-                    <a href="?i=<?php echo $i; ?>">Slet</a>
-                 </li>
-            <?php } ?>
-            </ul>
             
         </div>
     </div>
