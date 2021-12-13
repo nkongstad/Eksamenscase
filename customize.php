@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Customize</title>
 </head>
-<body>
+<body bgcolor="#D3CFCE">
     <form method="post" action="kurv.php">
 
         <label for="produkt">Produkt:</label>

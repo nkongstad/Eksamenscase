@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Informationer</title>
 </head>
-<body>
+<body bgcolor="#D3CFCE">
     <h4>Indtast forsendelsesinformationer:</h4>
 
 <form method="post" action="confirmation.php">

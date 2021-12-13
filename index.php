@@ -1,7 +1,4 @@
-<?php
-include("./functions.php");
 
-?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -49,9 +46,7 @@ include("./functions.php");
                 </p>
             </div>
             <div class="cardInfo">
-                <a href="customize.php" class="button">Tilpas</a>
-                <p><button id="buyMunin"type="submit">Køb nu</button></p>
-
+                <a href="customize.php" class="button">Tilpas og Køb</a>
 
             </div>
             
@@ -67,8 +62,7 @@ include("./functions.php");
                 </p>
             </div>
             <div class="cardInfo">
-                <a href="customize.php" class="button">Tilpas</a>
-                <p><button>Køb nu</button></p>
+                <a href="customize.php" class="button">Tilpas og køb</a>
 
             </div>
             
@@ -84,10 +78,8 @@ include("./functions.php");
                 </p>
             </div>
             <div class="cardInfo">
-                <a href="customize.php" class="button">Tilpas</a>
-                <from method="post">
-                    <input type="submit" name="addToCart" value="Køb nu">
-                </from>
+                <a href="customize.php" class="button">Tilpas og køb</a>
+
         
 
             </div>

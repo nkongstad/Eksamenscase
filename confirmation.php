@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bekræftelse</title>
 </head>
-<body>
+<body bgcolor="#D3CFCE">
 
 <h2>Tak for din bestilling!</h2>
 
