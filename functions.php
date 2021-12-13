@@ -1,34 +1,46 @@
-<?php 
-
-function samletPris($num1, $num2, $num3){
-    $value = $num1 + $num2 + $num3;
-    return $value;
-
-}
-
-function setBasket(){
+<?php
+function onSave(){
+    saveToFile($_POST['note']);
     
 }
 
-function getBasket(){
-    $basket = file_get_contents("./baket.json",);
-    $specifications = json_decode($basket, true);
-    return $specifications;
+function saveToFile($note){
+    $notesArray = getFromFile();
+    $notesArray[] = $note;
+    $jsonNotes = json_encode($notesArray);
+
+
+    file_put_contents("./basket.json", $jsonNotes);
+}
+
+function getFromFile() {
+    $jsonNotes = file_get_contents("./basket.json");
+    $notesArray = json_decode($jsonNotes, true);
+    return $notesArray;
+}
+
+function deleteItem($index) {
+    $notesArray = getFromFile();
+    unset($notesArray[$index]);
+    $jsonNotes = json_encode($notesArray);
+
+    file_put_contents("./basket.json", $jsonNotes);
+    header("Location: index.php");
 
 }
 
-function saveTo($produkt, $træsort, $farve){
-    $specifications = getBasket();
-    $specifications[] = $produkt; $træsort; $farve;
-    $basket = json_encode($specifications);
 
-    file_put_contents("./basket.json", $basket);
-
+if(isset($_POST["note"])) {
+    onSave();
 }
 
-function onSave(){
-    saveTo($_POST['produkt'] , ['træsort'] , ['farve']);
-
+if(isset($_GET['i'])){
+    deleteItem($_GET['i']);
 }
+
+if(isset($_POST["buyMunin"])) {
+    onSave();
+}
+
 
 ?>
